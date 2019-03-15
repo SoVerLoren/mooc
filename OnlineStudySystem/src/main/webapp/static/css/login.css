@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* logic head */
+#log_header,.log_content{width:960px; margin:0 auto;}
+#log_header{padding:5px 0;}
+#log_header h1 span{font-size:0; line-height:0; height:0; width:0; display:none;}
+#log_header ul{padding-top:40px;}
+#log_header li{float:left; padding-left:6px; font-size:13px;}
+#log_header li span{color:#999; padding-left:6px;}
+/* logic content */
+#log_container{background:#fff url(../images/regist_back.png) repeat-x 0 0;}
+.log_content{padding-top:20px;}
+/* log_con_log */
+.log_con_log{border:1px solid #dfdfdf; width:398px; background-color:#fff;}
+.log_con_log h2{position:relative;padding:15px 0 15px 15px; background-color:#F7F7F7; color:#656565; font-size:18px; font-family:'Microsoft YaHei','微软雅黑',SimSun,'宋体',sans-serif;}
+.log_field{margin-bottom:20px;}
+.cuo_m{margin:10px 0 0 28px;}
+.cuo_p{margin-left:28px;}
+.log_field_new form{position:relative; *zoom:1;}
+.info_input_new{position:relative; margin:15px 28px 6px; height:46px; font-size:14px; *zoom:1; z-index:1;}
+.log_input_box_text{position:absolute; left:45px; top:12px; color:#999; font-size:12px;}
+.pass_label{position:absolute; top:10px; left:8px; width:0; height:24px; overflow:hidden; padding-left:24px; background-image:url(../images/input_icons.png); background-repeat: no-repeat;}
+.log_field_input_name .pass_label{background-position:0 -68px;}
+.log_field_input_name .pass_label_focus{background-position:0 -108px;}
+.log_field_input_pwd .pass_label{background-position:0 -147px;}
+.log_field_input_pwd .pass_label_focus{background-position:0 -187px;}
+.log_input_nbox{width:292px; height:30px; line-height:30px; border:1px solid #dfdfdf; padding:6px 6px 6px 44px;}
+.log_input_nbox:hover{border:1px solid #dfdfdf;}
+.log_input_nbox:focus{outline:none; border:1px solid #14a7ed;}
+.log_remb_new{margin:8px 0 20px 28px;}
+.log_remb_new input{margin-right:8px; display:inline-block; height:13px; width:13px; vertical-align:middle;}
+.log_remb_new label{margin-right:190px; display:inline-block;}
+.log_remb_new a{color:#1B65C7;}
+.log_remb_new a:hover{text-decoration:none;}
+.btn{color:#fff; cursor:pointer; text-align:center;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.smbt{margin:0 28px 15px; display:block; width:342px; height:48px; line-height:48px; font-size:18px; border:none;}
+.smbbtn{background-color:#FF5F5F;}
+.btnhv{background-color:#ff3939;}
+p.reglink{margin-left:120px; padding-top:6px;}
+.log_reg{padding-left:70px; height:82px; background-color:#F7F7F7;}
+.log_reg span{display:inline-block; width:156px; line-height:82px;}
+.log_regbutton a{display:inline-block; margin-top:24px; height:34px; width:98px; line-height:34px; color:#fff; background-color:#13A7ED;}
+.log_regbutton a:hover{color:#fff; background-color:#0098e0; text-decoration:none}
+.log_con_note{background:url(../images/left_back.jpg) no-repeat left bottom; height:411px; width:560px; _width:558px;}
+.log_con_note dl{padding:80px 0 0 100px;}
+.log_con_note dt{color:#14a7ed;}
+.log_con_note dd{padding-top:6px;}
+.placeholder {color: #aaa;}
+
+.log_field{height:235px; padding-left:60px;}
+.info_input{margin-bottom:15px; font-size:14px;}
+.info_input label{display:block; font-weight:bold; padding-bottom:5px;}
+.log_input_box{border:1px solid #d9d9d9; font-family:Verdana,Arial,Helvetica,sans-serif; font-weight:bold; padding:6px; width:260px;}
+.log_input_box:hover{border:1px solid #b9b9b9; border-top:1px solid #a0a0a0; -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1); -moz-box-shadow:inset 0 1px 2px rgba(0,0,0,0.1); box-shadow:inset 0 1px 2px rgba(0,0,0,0.1);}
+.log_input_box:focus{outline:none; border:1px solid #14a7ed; -webkit-box-shadow:inset 0 1px 2px rgba(0,0,0,0.3); -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.3); box-shadow:inset 0 1px 2px rgba(0,0,0,0.3);}
+.info_input label span,.log_sub span{padding-right:13px;}
+.log_remb{margin-bottom:20px;}
+.log_remb input{float:left; height:22px; vertical-align:middle;}
+.log_remb span{padding:0 10px;}
+
+
+/*增加QQ登录*/
+.qqLog {position: absolute; right: 26px; }
+
+/*个人信息次改表单样式*/
+#top {position: relative; }
+#form1{font-family: 微软雅黑; }
+fieldset{overflow: hidden; font-size:16px; position:relative; margin:0 auto; width:900px; background: rgba(85,85,225,0.15); padding:0 12px; border:3px dashed #fff; border-radius: 10px; }
+fieldset legend{font-size: 20px; padding:6px 15px; background: rgba(255,255,255,0.7);border:none; margin-left: 20px; border-radius: 10px; }
+#headImgBox{display:inline-block; width:100px; height:100px; border:1px solid #aaa; margin-left: 10px; background:rgba(255,255,255,0.7); position:relative; bottom:-7px; /*background:#fff;*/ }
+#headImg{display:inline-block; padding:5px; width:100px; height:100px; box-sizing: border-box; }
+#uploadImg{position:relative; bottom:-47px; }
+#fenge1{width:800px; margin:0 auto; border:2px solid rgba(136,136,136,0.2); }
+#userName,#userID,#userTel,#userEmail{padding-left: 10px; width:200px; height:20px; border:1px solid #aaa; position:relative; top:-3px }
+#userName:hover,#select1:hover,#select2:hover,#select3:hover,#userTel:hover,#userEmail:hover,#userID:hover{border:1px solid #ddd; }
+#textarea{/*width:30em;*/ /*height:3em;*/ border:1px solid #aaa; }
+input.checkbox{margin:0 8px; }
+.select{border:1px solid #aaa; padding:0 10px; font-size:16px; }
+.radio{position:relative; margin:0 8px; }
+.title{width:160px; margin-left: 20px; font-weight: bold; }
+
+/*中间样式*/
+#center{text-align:center; /*border:1px solid orange;*/ position:relative; margin-bottom:25px; }
+.info1{margin:20px; padding-left: 40px; /*border:1px solid brown;*/ }
+.info1x{margin:20px; padding-left: 40px;}
+
+/*个人信息修改表单下面按钮样式*/
+.dx_button{width:100px; margin:0 10px; background:rgba(153,187,170,0.6); border-radius: 10px; height:30px; }
+.dx_button:hover{border:2px dashed #fff; }
+
+/*密码修改表单样式*/
+.info2{margin-left:120px; margin-top:15px; margin-bottom: 10px; }
+#info2_bottom{margin-bottom: 80px; } 
+#info2_top{margin-top:25px; }

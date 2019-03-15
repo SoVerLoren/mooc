@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*表单框样式*/
+#form_create{font-family: 微软雅黑;font-size: 16px;width:1042px;margin:20px auto; }
+#form_field{background: rgba(85,85,225,0.15); padding:20px 40px; border:3px dashed #fff; border-radius: 10px; }
+#create_title{font-size: 20px; padding:6px 15px; background: rgba(255,255,255,0.7);border:none; margin-left: 20px; border-radius: 10px; }
+
+/*表单每项*/
+.col_title{font-weight: bold;font-weight: 400;}
+/*表格样式*/
+#class_table{height:650px;}
+
+.create_textfield{height:25px;border:1px solid #aaa;padding:0 5px;border-radius:5px;}
+.create_area{border:1px solid #aaa;padding:5px;border-radius:5px;}
+.create_textfield:hover,.create_area:hover{border:1px solid #ddd; border-radius:5px;}
+/*试卷类型提示框*/
+#paper_tip{font-size:12px;font-color:#aaa;}
+
+/*提交按钮*/
+.create_button{width:100px; margin:0 10px; background:rgba(153,187,170,0.6); border-radius: 10px; height:30px;margin-top: 25px; }
+.create_button:hover{border:2px dashed #fff; }

@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{margin: 0px;}
+.course-title{ font-family: '楷体'; height:60px; background:url(../images/kc-title-bg.png) repeat-x; border-bottom:1px solid #d6d6d6;}
+.course-title h3.title span{ width:100%; height:42px; background:url(../images/kc-icon.png) 23px 0 no-repeat; padding-left:85px; font-size:20px; color:#7e7e7e;}
+.cu-info{ width: 100%; height:200px; }
+.cu-info h4, .cu-info .cu-in-info{ font-size: 26px; }
+.cu-info .cu-name{height: 30px;width: 180px; border-radius: 5px 5px 5px 5px;}
+.cu-info .cu-in-info{  margin-top: 30px;  }
+.cu-info .cu-introduce{ height: 100px;width: 890px; border-radius: 5px 5px 5px 5px;}
+.cu-add{ width: 100%; background-color: #f3f6f7; }
+.cu-addbtn{ float: right; margin-right: 200px; margin-top: 25px;}
+.tm_btn{ width: 100px; height: 30px; background-color: #66b7e6; border-radius: 5px 5px 5px 5px; font-size: 30px; font-family: '宋体'; text-align: center; }
+.tm_adm_paper_body ul li dt{display: inline; background-color: #f3f6f7;}
+.tm_adm_paper_body,.tm_adm_paper_body_section,.section_title,.section_tools,.tm_adm_paper_body_section_dl{ background-color: #f3f6f7; }
+.forml{margin-left: 10px; margin-top: 30px;}
+.tm_ico_delete{font-weight: bolder; font-size: 30px; text-align: center; margin-left:20px; line-height: 5px; color:#FF0000; }
+
+/* 新增试题 */
+.xinzeng{ width: 1024px; margin: 0 auto; }
+h1{margin-top: 50px;}
+h1,.controlBtn{padding-left: 10px; }
+.controlBtn{ margin-top: 20px; }
+.maBtn{ width: 80px; height: 25px; background: #888888; text-align: center;}
+.leadBtn{ margin-left: 10px; width: 100px; height: 25px; background: #ffffff; text-align: center; }
+h2{ height:35px; width: 990px; background-color: #B088FF; border-bottom: solid 1px #eee; font-size: 18px; font-weight: bold; margin-top: 50px; line-height: 40px; padding-left: 10px; color: #000;}
+h2,.leading,.ex-tab{ position: relative;}
+.leading-infol,.leading-info{ font-size: 14px; margin-left: 5px; padding-left: 10px;}
+.leading-infol span,.leading-info span{ font-size: 25px; }
+.leading-infol,.leading-info{ color: #D1BBFF; }
+.leading-infol span{ color: #FFBB00; }
+.leading-info span{color: #00DD00; }
+.leading-info a{ text-decoration: underline; color:#000088; }
+.ex-tab table{ border-collapse: collapse;}
+.ex-tab table tbody tr th,.ex-tab table tbody tr td{ border:1px solid #DDDDDD; }
+.ex-tab table  tbody tr th{ width: 100px; height: 35px; background-color: #CCEEFF; text-align: right; font-size: 14px; font-weight: normal;}
+.que-select, .search-file{padding: 5px; margin-left: 10px;}
+.que-select{ border-radius: 5px 0px 0px 5px; width: 180px; color: #888888; }
+.subBtn,.rembtn{ width: 50px; height: 35px; font-size: 16px; text-align: center; border-radius: 5px; margin-top: 10px; }
+.subBtn{ margin-left: 12px;  background-color: #006DCC; }
+.rembtn{ margin-left: 100px; background-color: #888888;}
+
+/* 管理试题 */
+.MaTest{ width: 1024px; margin: 0 auto; position: relative; margin-top: 50px; }
+.MaTest-title{ font-size: 30px;font-weight: bold; padding-left: 5px }
+.MaTest-controlBtn{padding-left: 10px; }
+.MaTest-controlBtn{ margin-top: 20px; }
+.MaTest-maBtn{ width: 80px; height: 25px; background: #ffffff; text-align: center;}
+.MaTest-leadBtn{ margin-left: 10px; width: 100px; height: 25px; background: #888888; text-align: center; }
+.search-test{ height: 50px; padding-left: 5px; line-height: 50px; margin-top: 20px; width: 100%; border:1px solid #DDDDDD;}
+.search-test{ width: 1016px; }
+.MaTest-table table{ border-collapse: collapse; table-layout:fixed; text-align: center;}
+.MaTest-table table tr th,.MaTest-table table tr td{  border:1px solid #DDDDDD;font-size: 16px; }
+.MaTest-table table tr th{ background:#00DDDD; height: 50px; }
+.MaTest-table table tr td{ padding: 5px; word-break:break-all;}
+.mainIn,.search-test select{ width: 180px; height: 30px; border-radius: 5px; }
+.search-test select{ margin-left: 10px; color: #aaaaaa;}
+.search-test button{ height:30px;width: 80px; background: #00BBFF; text-align: center; border-radius: 5px; }
+.MaTest-table a{ padding: 6px; color: #000000;}
+.MaTest-table a:hover{ text-decoration: underline; color: #770077;}
+
+/* 试题修改 */
+.xiugai{ width: 1024px; margin: 0 auto; }
+h1{margin-top: 50px;}
+h1,.xiugai-controlBtn{padding-left: 10px; }
+.xiugai-controlBtn{ margin-top: 20px; }
+.xiugai-maBtn{ width: 80px; height: 25px; background: #888888; text-align: center;}
+.xiugai-leadBtn{ margin-left: 10px; width: 100px; height: 25px; background: #ffffff; text-align: center; }
+.xiugai-leading,.xiugai-ex-tab{ position: relative; margin-top: 20px;}
+.xiugai .leading-infol,.xiugai .leading-info{ font-size: 14px; margin-left: 5px; padding-left: 10px;}
+.xiugai .leading-infol span,.xiugai .leading-info span{ font-size: 25px; }
+.xiugai .leading-infol,.xiugai .leading-info{ color: #D1BBFF; }
+.xiugai .leading-infol span{ color: #FFBB00; }
+.xiugai .leading-info span{color: #00DD00; }
+.xiugai .leading-info a{ text-decoration: underline; color:#000088; }
+.xiugai-ex-tab table{ border-collapse: collapse; table-layout:fixed;}
+.xiugai-ex-tab table tbody tr th,.xiugai-ex-tab table tbody tr td{ border:1px solid #DDDDDD; }
+.xiugai-ex-tab table  tbody tr th{ width: 100px; height: 35px; background-color: #CCEEFF; text-align: right; font-size: 14px; font-weight: normal;}
+.xiugai-que-select, .xiugai-search-file{padding: 5px; margin-left: 10px;}
+.xiugai-que-select{ border-radius: 5px 0px 0px 5px; width: 180px; color: #888888; }
+.xiugai .subBtn,.xiugai .rembtn{ width: 50px; height: 35px; font-size: 16px; text-align: center; border-radius: 5px; margin-top: 10px; }
+.xiugai .subBtn{ margin-left: 50px;  background-color: #006DCC; }
+.xiugai .rembtn{ margin-left: 100px; background-color: #888888;}
+.xiugai .input1,.xiugai .input2,.xiugai table tr td p{margin: 10px; font-size: 18px;}
+.xiugai .input1{ width: 870px;height: 300px;   }
+.xiugai .input2{ width: 870px;height: 300px; }
+.xiugai-foot{ height:59px; background:url(../images/top-bg.png) repeat-x; margin-top:130px; position:relative;}
+
+
+
+
+
+
+
+
+
+
+

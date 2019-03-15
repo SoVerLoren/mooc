@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+
+  <context id="DB2Tables" targetRuntime="MyBatis3">
+    <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+        connectionURL="jdbc:mysql://localhost:3306/mooc"
+        userId="root"
+        password="zwx15903553207">
+    </jdbcConnection>
+
+    <javaTypeResolver >
+      <property name="forceBigDecimals" value="false" />
+    </javaTypeResolver>
+
+    <javaModelGenerator targetPackage="com.hbnu.mooc.bean" targetProject=".\src\main\java">
+      <property name="enableSubPackages" value="true" />
+      <property name="trimStrings" value="true" />
+    </javaModelGenerator>
+
+    <sqlMapGenerator targetPackage="mappers"  targetProject=".\src\main\resources">
+      <property name="enableSubPackages" value="true" />
+    </sqlMapGenerator>
+
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.hbnu.mooc.dao"  targetProject=".\src\main\java">
+      <property name="enableSubPackages" value="true" />
+    </javaClientGenerator>
+
+    <table tableName="admin" domainObjectName="Admin"></table>
+    <table tableName="answer" domainObjectName="Answer"></table>
+    <table tableName="chapter" domainObjectName="Chapter"></table>
+    <table tableName="class" domainObjectName="Class"></table>
+    <table tableName="class_course" domainObjectName="ClassCourse"></table>
+    <table tableName="comment" domainObjectName="Comment"></table>
+    <table tableName="course" domainObjectName="Course"></table>
+    <table tableName="course_exam" domainObjectName="CourseExam"></table>
+    <table tableName="exam" domainObjectName="Exam"></table>
+    <table tableName="exam_class" domainObjectName="ExamClass"></table>
+    <table tableName="grade" domainObjectName="Grade"></table>
+    <table tableName="paper" domainObjectName="Paper"></table>
+    <table tableName="question" domainObjectName="Question"></table>
+    <table tableName="questiontype" domainObjectName="QuestionType"></table>
+    <table tableName="record" domainObjectName="Record"></table>
+    <table tableName="student" domainObjectName="Student"></table>
+    <table tableName="subject" domainObjectName="Subject"></table>
+    <table tableName="teacher" domainObjectName="Teacher"></table>
+    <table tableName="teachercourse" domainObjectName="TeacherCourse"></table>
+    <table tableName="topic" domainObjectName="Topic"></table>
+    <table tableName="users" domainObjectName="Users"></table>
+    
+
+  </context>
+</generatorConfiguration>
